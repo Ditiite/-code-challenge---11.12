@@ -3,17 +3,23 @@
 }
 
 .container {
-    border: 1px solid black;
-    padding: 0 !important;
     margin: 20px auto;
     width: 100vw;
+    background-color: #d5e4ed;
+    border-radius: 3px;
+}
 
+.shadow {
+    box-shadow:  5px 5px 20px silver;
 }
 /*************
 *** HEADER ***
 *************/
 .nav {
     border: 1px solid silver;
+    margin-top: 20px;
+    border-radius: 3px;
+    background-color: white;
 }
 .nav a {
    padding: 20px 30px;
@@ -28,12 +34,13 @@ button {
     color: silver;
     font-style: italic;
     height: 40px;
-    margin: 18px 10px 18px 35px;
+    margin: 18px 7px 18px 30px;
 }
 
 #searchFor {
     border-left: 1px solid silver;
     padding-left: 20px;
+    width: 150px;
 }
 /*******************
 ******* MAIN *******
@@ -46,20 +53,66 @@ button {
     margin-bottom: 30px
 }
 
+/*** CARD WITH ROUND IMAGE ***/
 .card1 {
-    border: 1px solid black;
+    background-color: white;
     grid-column-start: 1;
     grid-column-end: 2;
+    height: auto;
+    text-align: center;
+    padding-top: 70px;
+    border-radius: 3px;
 }
 
+.round-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.fa-map-marker {
+    padding-right: 5px;
+}
+
+.map a {
+    color: silver;
+    text-decoration: none;
+}
+
+.icons {
+    align-items: center;
+    text-align: center;
+    color: silver;
+    font-size: 35px;
+}
+
+.row.icons div {
+    border-top: 1px solid silver;
+    width: 33.33%;
+    margin: 70px auto 0 auto;    
+    padding: 20px ;
+    border-right: 1px solid silver;
+}
+
+.row.icons div:last-child {
+    border-right: none;
+}
+
+/**** SINGLE IMAGE ****/
 .image {
-    border: 1px solid black;
+    background-color: white;
     grid-column-start: 2; 
     grid-column-end: 3; 
 }
 
+
+/**** IMAGE AND TEXT ****/
 .text {
-    border: 1px solid black;
+    background-color: white;
     grid-column-start: 3;
     grid-column-end: 5;
 }
