@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.container {
+    padding: 0 !important;
+    margin: 20px auto;
+    width: 100vw;
+}
+/*************
+*** HEADER ***
+*************/
+.nav a {
+   padding: 20px 30px;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+#searchFor {
+    float: right;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 25%;
+    grid-gap: 20px;
+}
+
+.card1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.image {
+    grid-column-start: 2; 
+    grid-column-end: 3; 
+}
+
+.text {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.steps {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.step {
+    width: 33.33%;
+}
+
+
+/* **************
+** COL- WIDTH **
+***************
+.col-3 {
+    width: 25%;
+}
+
+.col-6 {
+    width: 45%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+} */
