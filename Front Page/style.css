@@ -15,14 +15,13 @@
    padding: 20px 30px;
 }
 
-.row {
-    padding: 0;
-    margin: 0;
-}
 #searchFor {
     float: right;
 }
 
+/*******************
+******* MAIN *******
+*******************/
 .wrapper {
     display: grid;
     grid-template-columns: 25%;
@@ -44,6 +43,13 @@
     grid-column-end: 5;
 }
 
+/*******************
+*** STEPS SECTION **
+*******************/
+.row {
+    padding: 0;
+    margin: 0;
+}
 .steps {
     grid-column-start: 1;
     grid-column-end: 4;
