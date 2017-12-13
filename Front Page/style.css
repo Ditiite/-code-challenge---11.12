@@ -12,9 +12,9 @@
 .shadow {
     box-shadow:  5px 5px 20px silver;
 }
-/*************
-*** HEADER ***
-*************/
+/********************************
+************** HEADER ***********
+********************************/
 .nav {
     border: 1px solid silver;
     margin-top: 20px;
@@ -42,18 +42,18 @@ button {
     padding-left: 20px;
     width: 150px;
 }
-/*******************
-******* MAIN *******
-*******************/
+/*****************************
+************* MAIN ***********
+******************************/
 .wrapper {
     display: grid;
-    grid-template-columns: 25%;
+    grid-template-columns: 25% 25% 40%;
     grid-gap: 30px;
     margin-top: 30px;
     margin-bottom: 30px
 }
 
-/*** CARD WITH ROUND IMAGE ***/
+/************** CARD WITH ROUND IMAGE *******/
 .card1 {
     background-color: white;
     grid-column-start: 1;
@@ -102,23 +102,37 @@ button {
     border-right: none;
 }
 
-/**** SINGLE IMAGE ****/
+/*********** SINGLE IMAGE ***********/
 .image {
     background-color: white;
     grid-column-start: 2; 
     grid-column-end: 3; 
+    background-image: url(image/raindeer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
 
+.left-heart {
+    float: right;
+}
 
-/**** IMAGE AND TEXT ****/
+.amazing {
+    padding: 20px;
+}
+
+.amazing .fa {
+    font-size: 20px;
+}
+
+/************* IMAGE AND TEXT ***********/
 .text {
     background-color: white;
     grid-column-start: 3;
     grid-column-end: 5;
 }
 
-/*******************
-*** STEPS SECTION **
+/*************************
+****** STEPS SECTION *****
 *******************/
 .row {
     padding: 0;
@@ -134,9 +148,9 @@ button {
 }
 
 
-/* **************
-** COL- WIDTH **
-***************
+/*******************
+**** COL- WIDTH ****
+******************
 .col-3 {
     width: 25%;
 }
