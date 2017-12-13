@@ -118,19 +118,20 @@ button {
     color: #d5e4ed;
     font-size: 35px;
     position: absolute;
+    width: 100%;   
     bottom: 0;
     right: 0; 
+    display: flex;    
 }
 
-.icons div { 
-    border: 1px solid red;    
+.icons div {     
     background-color: silver; 
-    float: right;
-    
+    flex: 1; 
+    padding: 15px;
 }
 
-.fa-comment {
-    border-right: none;
+.r-border{    
+    border-right: 1px solid white;
 }
 
 /*********** SINGLE IMAGE ***********/
