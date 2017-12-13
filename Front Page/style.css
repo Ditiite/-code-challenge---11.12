@@ -12,6 +12,11 @@ body {
     background-color: #d5e4ed;
 }
 
+.hover:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .container {
     margin: 20px auto;
     width: 100vw;
@@ -67,7 +72,7 @@ button {
 ******************************/
 .wrapper {
     display: grid;
-    grid-template-columns: 25% 25% 40%;
+    grid-template-columns: 270px 270px 400px;
     grid-gap: 30px;
     margin-top: 30px;
     margin-bottom: 30px
@@ -82,6 +87,7 @@ button {
     padding-top: 70px;
     border-radius: 3px;
     height: 425px;
+    position: relative;
 }
 
 .round-img {
@@ -96,6 +102,7 @@ button {
 
 .fa-map-marker {
     padding-right: 5px;
+    color: #d5e4ed;
 }
 
 .map a {
@@ -104,21 +111,22 @@ button {
 }
 
 .icons {
-    align-items: center;
     text-align: center;
-    color: silver;
+    color: #d5e4ed;
     font-size: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
 }
 
-.row.icons div {
-    border-top: 1px solid silver;
-    width: 33.33%;
-    margin: 70px auto 0 auto;    
-    padding: 20px ;
-    border-right: 1px solid silver;
+.icons div { 
+    border: 1px solid red;    
+    background-color: silver; 
+    float: right;
+    
 }
 
-.row.icons div:last-child {
+.fa-comment {
     border-right: none;
 }
 
@@ -165,6 +173,7 @@ button {
 }
 .view button:hover {
     background-color: #d5e4ed;
+    transition: 1s;
 }
 
 /************* IMAGE AND TEXT ***********/
@@ -180,7 +189,24 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 210px;
-    border-radius: 3px 3px 0 0 ;
+    border-radius: 3px 3px 0 0 ;  
+    display: flex;  
+    align-items: flex-end;
+}
+
+.img-back-text .fa-search-plus {
+    margin: 20px 50px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.img-back-text .fa-search-plus:hover {
+    color: silver;
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .title-text {
