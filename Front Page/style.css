@@ -58,10 +58,10 @@ button {
     background-color: white;
     grid-column-start: 1;
     grid-column-end: 2;
-    height: auto;
     text-align: center;
     padding-top: 70px;
     border-radius: 3px;
+    height: 425px;
 }
 
 .round-img {
@@ -109,7 +109,8 @@ button {
     grid-column-end: 3; 
     background-image: url(image/raindeer.jpg);
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;  
+    height: 425px;  
 }
 
 .left-heart {
@@ -147,6 +148,38 @@ button {
     background-color: white;
     grid-column-start: 3;
     grid-column-end: 5;
+}
+
+.img-back-text {
+    background-image: url(image/raindeer-long.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 210px;
+}
+
+.title-text {
+    padding: 15px 50px 50px 50px;
+}
+
+.text-text {
+    font-size: 14px;
+    text-align: justify;
+}
+
+#more-text {
+    display: none;
+}
+
+ .read-more {
+     font-style: italic;
+     color: silver;
+}
+.read-more:hover {
+    color: #7f8182;
+}
+
+.read-more:active {
+    font-size: 13px;
 }
 
 /*************************
