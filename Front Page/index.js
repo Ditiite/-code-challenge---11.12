@@ -7,3 +7,4 @@ function showText() {
         text.style.display = 'none';
     }
 }
+

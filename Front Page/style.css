@@ -1,11 +1,20 @@
+/******* COLORS USED
+* body- background:      #d5e4ed
+* address, read more:     silver;
+* nav a hover bacground : #81B2CA
+*/
+
 * {
     box-sizing: border-box;        
+}
+
+body {    
+    background-color: #d5e4ed;
 }
 
 .container {
     margin: 20px auto;
     width: 100vw;
-    background-color: #d5e4ed;
     border-radius: 3px;
 }
 
@@ -27,6 +36,16 @@
    font-size: 20px;
 }
 
+.nav a:hover {
+    text-decoration: none;
+    background-color: #81B2CA;
+    color: white;
+}
+
+.nav a:focus {
+    text-decoration: none;
+}
+
 #searchFor,
 button {
     border: none;
@@ -42,6 +61,7 @@ button {
     width: 150px;    
     font-style: italic;
 }
+
 /*****************************
 ************* MAIN ***********
 ******************************/
@@ -111,6 +131,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;  
     height: 425px;  
+    border-radius: 3px;
 }
 
 .left-heart {
@@ -139,8 +160,11 @@ button {
     margin-bottom: 50px;
     margin-left: 0;
     margin-right: 0;
-    text-transform: uppercase; 
-    
+    text-transform: uppercase;   
+    border-radius: 3px;  
+}
+.view button:hover {
+    background-color: #d5e4ed;
 }
 
 /************* IMAGE AND TEXT ***********/
@@ -148,6 +172,7 @@ button {
     background-color: white;
     grid-column-start: 3;
     grid-column-end: 5;
+    border-radius: 3px;
 }
 
 .img-back-text {
@@ -155,6 +180,7 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     height: 210px;
+    border-radius: 3px 3px 0 0 ;
 }
 
 .title-text {
