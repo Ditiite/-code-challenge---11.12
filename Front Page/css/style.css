@@ -8,7 +8,8 @@
 */
 
 * {
-    box-sizing: border-box;        
+    box-sizing: border-box;     
+   font-family: 'Comfortaa', cursive;      
 }
 
 body {    
@@ -44,8 +45,7 @@ body {
     color: #81B2CA;
 }
 .nav a {
-   padding: 20px 30px;
-   font-family: 'Merienda', cursive;
+   padding: 20px 25px;
    font-size: 20px;
 }
 
@@ -121,7 +121,7 @@ button {
 
 .icons {
     text-align: center;
-    color: #d5e4ed;
+    color: white;
     font-size: 35px;
     position: absolute;
     width: 100%;   
@@ -131,7 +131,7 @@ button {
 }
 
 .icons div {     
-    background-color: silver; 
+    background-color: #E2DFDF; 
     flex: 1; 
     padding: 15px;
 }
@@ -145,7 +145,7 @@ button {
     background-color: white;
     grid-column-start: 2; 
     grid-column-end: 3; 
-    background-image: url(image/raindeer.jpg);
+    background-image: url(../image/raindeer.jpg);
     background-repeat: no-repeat;
     background-size: cover;  
     height: 425px;  
@@ -176,7 +176,7 @@ button {
 
 .view button {
     width: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     margin-left: 0;
     margin-right: 0;
     text-transform: uppercase;   
@@ -196,7 +196,7 @@ button {
 }
 
 .img-back-text {
-    background-image: url(image/raindeer-long.png);
+    background-image: url(../image/raindeer-long.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 210px;
@@ -206,7 +206,7 @@ button {
 }
 
 .img-back-text .fa-search-plus {
-    margin: 20px 50px;
+    margin: 20px 40px;
     padding: 10px;
     border: 1px solid white;
     border-radius: 3px;
@@ -233,10 +233,8 @@ button {
     padding-top: 30px;
 }
 .title-text {
-    padding: 15px 50px 30px 50px;
-}
-
-.text-text {
+    padding: 15px 40px 20px 40px;
+    color: silver;
     font-size: 14px;
     text-align: justify;
 }
@@ -313,23 +311,16 @@ button {
 
 .step1 h4 {
     color: #81B2CA;
+    padding-top: 18px;
 }
 
 .step:last-child {
     border-radius: 0 3px 3px 0;
-}
-/*******************
-**** COL- WIDTH ****
-******************
-.col-3 {
-    width: 25%;
+    border-right: none;
 }
 
-.col-6 {
-    width: 45%;
-}
 
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-} */
+/***********************************
+************ @MEDIA ****************
+***********************************/
+
