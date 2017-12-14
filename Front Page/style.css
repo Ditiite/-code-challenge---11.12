@@ -1,7 +1,9 @@
 /******* COLORS USED
-* body- background:      #d5e4ed
-* address, read more:     silver;
-* nav a hover bacground : #81B2CA
+* body- background                  : #d5e4ed
+* address                           : silver;
+* read more                         : #ADBDBB
+* h4,nav text,nav a hover bacground : #81B2CA
+* searchFor                         : #ADBDBB;
 */
 
 * {
@@ -15,6 +17,7 @@ body {
 .hover:hover {
     transform: scale(1.1);
     transition: 0.5s;
+    border-radius: 3px;
 }
 
 .container {
@@ -37,6 +40,7 @@ body {
     margin-top: 20px;
     border-radius: 3px;
     background-color: white;
+    color: #81B2CA;
 }
 .nav a {
    padding: 20px 30px;
@@ -58,7 +62,7 @@ body {
 button {
     border: none;
     background-color: white;
-    color: silver;
+    color:  #ADBDBB;
     height: 40px;
     margin: 18px 7px 18px 30px;
 }
@@ -101,6 +105,7 @@ button {
 .name {
     font-size: 30px;
     margin-bottom: 0;
+    color: #81B2CA;
 }
 
 .fa-map-marker {
@@ -144,9 +149,10 @@ button {
     background-size: cover;  
     height: 425px;  
     border-radius: 3px;
+    color: #97A5A3;
 }
 
-.left-heart {
+.right-heart {
     float: right;
 }
 
@@ -213,6 +219,18 @@ button {
     transition: 1s;
 }
 
+.title {
+    display: flex;
+    justify-content: space-between;
+    color: #ADBDBB;
+    font-size: 12px;
+}
+.title h4 {
+    color: #81B2CA;
+}
+.title p {
+    padding-top: 30px;
+}
 .title-text {
     padding: 15px 50px 50px 50px;
 }
@@ -224,11 +242,12 @@ button {
 
 #more-text {
     display: none;
+    text-align: justify;
 }
 
- .read-more {
+.read-more {
      font-style: italic;
-     color: silver;
+     color: #ADBDBB;
 }
 .read-more:hover {
     color: #7f8182;
