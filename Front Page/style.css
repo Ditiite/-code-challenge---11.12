@@ -4,6 +4,7 @@
 * read more                         : #ADBDBB
 * h4,nav text,nav a hover bacground : #81B2CA
 * searchFor                         : #ADBDBB;
+* heart- red                        : #CF1818;
 */
 
 * {
@@ -232,7 +233,7 @@ button {
     padding-top: 30px;
 }
 .title-text {
-    padding: 15px 50px 50px 50px;
+    padding: 15px 50px 30px 50px;
 }
 
 .text-text {
@@ -247,7 +248,7 @@ button {
 
 .read-more {
      font-style: italic;
-     color: #ADBDBB;
+     color: #81B2CA;
 }
 .read-more:hover {
     color: #7f8182;
@@ -267,13 +268,56 @@ button {
 .steps {
     grid-column-start: 1;
     grid-column-end: 4;
+    background-color: white;
+    height: 160px;
+    border-radius: 3px;
 }
 
 .step {
     width: 33.33%;
+    position: relative;
+    border-right: 1px solid silver;
 }
 
+.circle {
+    text-align: center;
+    padding: 15px;
+    margin-right: 20px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    background-color:#81B2CA;
+    transition: 0.5s;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+}
+.circle:hover {
+    color: #CF1818;
+    background-color: white;
+    border: 2px solid #81B2CA;
+}
 
+.step1 {    
+    float: right;
+    width: 250px;
+    padding: 12px 12px 0 0;    
+}
+.step1 p {
+    color: silver;
+}
+
+.step1 h4 {
+    color: #81B2CA;
+}
+
+.step:last-child {
+    border-radius: 0 3px 3px 0;
+}
 /*******************
 **** COL- WIDTH ****
 ******************
