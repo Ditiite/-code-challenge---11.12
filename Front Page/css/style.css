@@ -370,16 +370,16 @@ button {
 }
 @media screen and (max-width: 993px) {
     .nav {
-        margin-top:10px;         
+        margin-top:7px;         
     }
     .nav a {
-        padding: 7px;
+        padding: 5px;
         font-size: 15px;
     }
     #searchFor,
     button {
         height: 18px;
-        margin: 10px;
+        margin: 7px;
     }
     #searchFor {
         width: 10%;
