@@ -324,3 +324,225 @@ button {
 ************ @MEDIA ****************
 ***********************************/
 
+@media screen and (max-width: 1199px) {
+    .nav {
+        margin-top:10px; 
+    }
+    .nav a {
+        padding: 15px;
+    }
+    #searchFor,
+    button {
+        height: 30px;
+    }
+    #searchFor {
+        width: 90px;
+        padding-left: 5px;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 25% 25% 45%;
+        grid-gap: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+    .title-text {
+        padding: 15px ;
+        color: silver;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .circle {
+        padding: 10px;
+        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        font-size: 20px;
+        left: 15px;
+        transform: translateY(-50%);
+    }
+    .step1 {    
+        float: right;
+        width:70%;
+        padding: 12px 12px 0 0;    
+    }    
+}
+@media screen and (max-width: 993px) {
+    .nav {
+        margin-top:10px;         
+    }
+    .nav a {
+        padding: 7px;
+        font-size: 15px;
+    }
+    #searchFor,
+    button {
+        height: 18px;
+        margin: 10px;
+    }
+    #searchFor {
+        width: 10%;
+        padding-left: 15px;
+        font-size: 10px;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-gap: 25px;
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+    .title-text {
+        padding: 15px ;
+        color: silver;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .text {
+        background-color: white;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        border-radius: 3px;
+    }
+    
+    .circle {
+        padding: 10px;
+        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        font-size: 20px;
+        left: 15px;
+        transform: translateY(-50%);
+    }
+
+    .steps {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;        
+        height: 80px;
+        background-color: transparent;
+        box-shadow: none;
+    }    
+    .step {
+        width: 100% ;
+        border-right: none;
+        height: 80px;
+        background-color: white;
+        box-shadow: 5px 5px 20px silver;
+        border-radius: 3px;
+    }
+    .step1 {        
+        padding: 0;
+        margin:0;
+        width: 70%;
+    }
+    .step1 h4 {
+        padding-top: 10px;
+        margin: 0;
+        font-size: 16px;
+    }
+    .step1 p {
+        font-size: 12px;
+    }
+    .steps1-1 {        
+        height: auto;
+        border-radius: 3px;
+    }
+    .steps1-2 {
+        grid-row-start: 4;
+        height: auto;
+        border-radius: 3px;
+    }
+    .steps1-3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        height: auto;
+        border-radius: 3px;
+    }    
+}
+
+@media screen and (max-width: 510px) {
+    .nav {
+        margin-top:5px;         
+    }
+    .nav a {
+        padding: 7px;
+        font-size: 10px;
+    }
+    #searchFor,
+    button {
+        height: 12px;
+        margin: 6px;
+    }
+    #searchFor {
+        width: 10%;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    #searchB{
+        font-size: 10px !important;
+        margin:5px 0;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px
+    }
+    .card1 {
+        background-color: white;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: center;
+        padding-top: 40px;
+        height: 325px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .icons {
+        color: white;
+        font-size: 25px;         
+    }
+    /*********** SINGLE IMAGE ***********/
+    .image {
+        grid-column-start: 1; 
+        grid-column-end: 2; 
+        grid-row-start: 2;
+        height: 325px;  
+        border-radius: 3px;
+        color: #97A5A3;
+    }
+    .view {
+        width:400px;
+        height: 250px;
+    }
+    
+    .view button {
+        width: 100px;
+        height: 40px;        
+    }
+    /***** Text**/
+    .title-text {
+        padding: 15px ;
+        color: silver;
+        font-size: 14px;
+        text-align: justify;
+    }
+    /************* IMAGE AND TEXT ***********/
+    .text {
+        background-color: white;
+        grid-column-start: 1; 
+        grid-column-end: 2;       
+        grid-row-start: 3;
+        border-radius: 3px;
+    }
+      
+}
