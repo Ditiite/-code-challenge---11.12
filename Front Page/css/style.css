@@ -300,16 +300,16 @@ button {
     border: 2px solid #81B2CA;
 }
 
-.step1 {    
+.stepT {    
     float: right;
     width: 250px;
     padding: 12px 12px 0 0;    
 }
-.step1 p {
+.stepT p {
     color: silver;
 }
 
-.step1 h4 {
+.stepT h4 {
     color: #81B2CA;
     padding-top: 18px;
 }
@@ -362,7 +362,7 @@ button {
         left: 15px;
         transform: translateY(-50%);
     }
-    .step1 {    
+    .stepT {    
         float: right;
         width:70%;
         padding: 12px 12px 0 0;    
@@ -436,17 +436,17 @@ button {
         box-shadow: 5px 5px 20px silver;
         border-radius: 3px;
     }
-    .step1 {        
+    .stepT {        
         padding: 0;
         margin:0;
         width: 70%;
     }
-    .step1 h4 {
+    .stepT h4 {
         padding-top: 10px;
         margin: 0;
         font-size: 16px;
     }
-    .step1 p {
+    .stepT p {
         font-size: 12px;
     }
     .steps1-1 {        
